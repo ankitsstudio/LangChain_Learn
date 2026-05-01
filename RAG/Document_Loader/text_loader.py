@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 current_dir = os.path.dirname(__file__)
-file_path = os.path.join(current_dir, "doc.txt")
+file_path = os.path.join(current_dir, "Documents", "txtDoc", "doc.txt")
 
 model = AzureChatOpenAI(
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
