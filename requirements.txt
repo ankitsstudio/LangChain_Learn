@@ -30,3 +30,14 @@ scikit-learn
 pydantic
 pypdf
 beautifulsoup4
+
+# vector stores
+azure-search-documents
+azure-core
+azure-identity
+
+# pdf loaders requirements
+pdfplumber
+pdf2image
+pytesseract 
+pillow
