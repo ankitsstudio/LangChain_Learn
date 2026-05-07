@@ -41,3 +41,8 @@ pdfplumber
 pdf2image
 pytesseract 
 pillow
+
+
+# retriever
+wikipedia
+tavily-python
