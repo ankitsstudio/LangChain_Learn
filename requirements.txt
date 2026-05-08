@@ -47,3 +47,4 @@ pillow
 # retriever
 wikipedia
 tavily-python
+rank_bm25
