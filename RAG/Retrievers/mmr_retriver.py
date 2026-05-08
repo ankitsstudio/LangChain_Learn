@@ -1,3 +1,21 @@
+"""
+WHAT IT DOES:
+  Like similarity search but adds a diversity penalty — each next result
+  must be both relevant to the query AND different from what was already
+  selected. Controlled by the lambda_mult parameter:
+    lambda_mult = 1.0  →  pure similarity (same as basic search)
+    lambda_mult = 0.0  →  maximum diversity
+    lambda_mult = 0.5  →  balanced (recommended default)
+ 
+WHEN TO USE:
+  - When chunks tend to be repetitive (e.g. the same fact repeated across
+    multiple sections of a large document).
+  - When you want to cover multiple angles of a topic in a single query.
+  - Generally produces better LLM context than plain similarity.
+ 
+SEARCH TYPE:  "mmr"
+"""
+
 from langchain_community.vectorstores.azuresearch import AzureSearch
 from langchain_openai import AzureOpenAIEmbeddings
 from langchain_core.vectorstores.utils import maximal_marginal_relevance

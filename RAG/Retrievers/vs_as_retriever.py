@@ -1,3 +1,16 @@
+"""
+WHAT IT DOES:
+  Converts the query to an embedding vector and returns the k chunks
+  whose embedding vectors are closest to the query vector.
+ 
+WHEN TO USE:
+  - Default starting point for any RAG pipeline.
+  - Works well when queries are clear and specific.
+  - Fast, no extra LLM calls.
+ 
+SEARCH TYPE:  "similarity"
+"""
+
 from langchain_community.vectorstores.azuresearch import AzureSearch
 from langchain_openai import AzureOpenAIEmbeddings, AzureChatOpenAI
 from langchain_community.document_loaders import Docx2txtLoader
