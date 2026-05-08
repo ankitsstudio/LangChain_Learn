@@ -30,6 +30,7 @@ scikit-learn
 pydantic
 pypdf
 beautifulsoup4
+docx2txt
 
 # vector stores
 azure-search-documents
@@ -41,3 +42,9 @@ pdfplumber
 pdf2image
 pytesseract 
 pillow
+
+
+# retriever
+wikipedia
+tavily-python
+rank_bm25
