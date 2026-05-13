@@ -48,3 +48,10 @@ pillow
 wikipedia
 tavily-python
 rank_bm25
+
+# tools
+ddgs
+langchain-experimental
+
+# for better visualization of tool calls and results
+rich
