@@ -55,3 +55,11 @@ langchain-experimental
 
 # for better visualization of tool calls and results
 rich
+
+# Ollama Integration
+ollama
+
+
+# Jupyter notebook
+jupyter 
+ipykernel

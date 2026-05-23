@@ -42,3 +42,27 @@
 * `Enterprise Support`: Large organizations prefer proprietary vendors who offer Service Level Agreements (SLAs), safety protocols, and dedicated support contracts that open-source communities cannot guarantee.
 * `Legal Indemnification`: Major proprietary providers (e.g., Microsoft, Google, OpenAI) offer contractual indemnification against copyright claims, a critical feature for regulated industries like finance and healthcare that open-source users must self-insure against.
 
+## Ollama 
+ It's a tool that lets you `run large language models(LLMs) on your own computer.` In simple terms Ollama makes it easy to download, run and manage AI models locally using very simple commands.
+
+## Benifits of using Ollama:
+
+1. Privacy and Data Control:
+2. Lower Latency and offline access: 
+3. Cost Predictability and potential savings:
+4. Simple Installation and setup:
+5. Pre-built Model Library:
+6. Customization of Model:
+7. Run, manage Models with simple commands
+
+## Ways to use Ollama in your system:
+1. CLI
+2. Ollama Library
+3. RestAPIs
+4. Langchain Integration
+5. Ollama application
+
+
+
+
+
