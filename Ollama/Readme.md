@@ -56,13 +56,24 @@
 7. Run, manage Models with simple commands
 
 ## Ways to use Ollama in your system:
-1. CLI
-2. Ollama Library
+1. CLI : [CLI Direct Learn](https://docs.ollama.com/cli)
+2. Ollama Library: [Open notebook code](./ollama_library.ipynb)
 3. RestAPIs
 4. Langchain Integration
 5. Ollama application
 
 
+## Tools with Ollama Library
+Tools are basically the python functions which gives LLMs the extra capabilities to achieve any task. They are like something extra `Cherry on the cake` which can make llm work in the way we want.
 
+Tool calling is a method that allows LLMs to use external tools or systems to perform task which it cannot do by its own.
+
+### Flow of Tool calling 
+[Open notebook code](./tool_calling.ipynb)
+1. Create Tool Functions
+2. Tool Schema : Basically an Json object where you define what tools, their descriptions and their parameters which they accepts and their data types.
+3. LLM call : Prompt + Tool Schema
+4. Run : 
+5. LLM : Prompt + Tool selection + Tool output (basically whole history)
 
 
